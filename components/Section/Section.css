@@ -1,0 +1,29 @@
+
+
+.Section {
+    width: 100%;
+    border: 5px solid black;
+    padding: 2%;
+}
+
+.Section__heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-right: 6%;
+}
+
+.Section--bottomBlocks {
+    width: 50%;
+    height: 25%;
+    display: inline-block;
+    border-top: none;
+}
+
+@media (max-width: 600px) {
+    .Section--bottomBlocks {
+        width: 100%;
+    }
+}
+   

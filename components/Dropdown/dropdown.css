@@ -1,0 +1,24 @@
+.Dropdown {
+  float: left;
+  height: 35px;
+  display: inline-block;
+  position: relative
+}
+
+.Dropdown__content {
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    background-color: white;
+    margin: 49% 0 0 0;
+    padding: 8.1%;
+    text-align: center;
+}
+
+.Dropdown__content a {
+    display: block;
+    text-decoration: none;
+    padding: 5% 0;
+    color: black;  
+}
+
