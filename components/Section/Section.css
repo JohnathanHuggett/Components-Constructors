@@ -19,6 +19,11 @@
     height: 25%;
     display: inline-block;
     border-top: none;
+    border-bottom: none;
+}
+
+Section--tab {
+
 }
 
 @media (max-width: 600px) {
